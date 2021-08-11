@@ -1,7 +1,13 @@
+import Header from "./components/Header";
+import About from "./components/About";
+
 function App() {
   return (
     <div>
-      <h1>Isaac's Portfolio</h1>
+      <Header />
+      <div className="container">
+        <About />
+      </div>
     </div>
   );
 }
