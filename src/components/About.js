@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div>
+    <div className="about">
       <h1>Hey, I'm Isaac! 👋</h1>
       <p>
         I'm a student at the University of British Columbia studying Cognitive Systems + CS. This website is an overview
@@ -24,7 +24,7 @@ const About = () => {
         <a href="https://open.spotify.com/user/sophieknowington?si=1721bf00ead043a8" rel="noreferrer" target="_blank">
           Spotify
         </a>
-        . 😊
+        !😊
       </p>
     </div>
   );
