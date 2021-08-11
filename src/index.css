@@ -31,3 +31,8 @@ body {
   margin: auto 5rem auto 5rem;
   font-size: 1.2rem;
 }
+
+.post {
+  margin: 5px;
+  padding: 10px 20px 10px 20px;
+}

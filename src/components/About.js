@@ -7,8 +7,9 @@ const About = () => {
         of some of my experiences and thoughts.
       </p>
       <p>
-        Eos sadipscing duo diam justo lorem amet dolor. Dolores stet dolor eirmod nonumy magna labore ut stet. Vero
-        gubergren lorem.
+        I only started coding halfway through my first year, and I'm still navigating through the tech industry. My
+        future career aspirations are still unclear, but I hope to sample and gain a general understanding of the
+        industry before specializing in the future.
       </p>
       <p>
         Check out my{" "}
@@ -23,7 +24,7 @@ const About = () => {
         <a href="https://open.spotify.com/user/sophieknowington?si=1721bf00ead043a8" rel="noreferrer" target="_blank">
           Spotify
         </a>
-        .
+        . 😊
       </p>
     </div>
   );
