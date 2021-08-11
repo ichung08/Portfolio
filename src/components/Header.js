@@ -5,9 +5,15 @@ const Header = () => {
         ISAAC CHUNG
       </a>
       <div>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#thoughts">Thoughts</a>
+        <a href="#experience" rel="noreferrer">
+          Experience
+        </a>
+        <a href="#projects" rel="noreferrer">
+          Projects
+        </a>
+        <a href="#thoughts" rel="noreferrer">
+          Thoughts
+        </a>
       </div>
     </header>
   );

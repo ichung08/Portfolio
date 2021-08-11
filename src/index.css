@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Montserrat:wght@700&display=swap");
 
 body {
   font-family: "Lato", sans-serif;
@@ -8,7 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -28,5 +28,6 @@ body {
 }
 
 .container {
-  margin: 2rem;
+  margin: auto 5rem auto 5rem;
+  font-size: 1.2rem;
 }
