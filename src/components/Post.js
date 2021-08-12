@@ -25,7 +25,7 @@ const Post = (props) => {
       <div ref={content} style={{ maxHeight: `${setHeight}` }} className="accordion__content">
         <div className="accordion__date">{props.date}</div>
         <div className="accordion__text">{props.desc}</div>
-        <div>
+        <div className="accordion__tech__container">
           {" "}
           {techArr.map(function (tech, i) {
             return (
