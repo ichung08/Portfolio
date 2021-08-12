@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+::selection {
+  background: #f8ba45;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -40,8 +44,6 @@ h2 {
 }
 
 .container {
-  /* display: flex;
-  flex-direction: column; */
   margin: auto 20rem auto 20rem;
   font-size: 1.2rem;
   word-wrap: normal;

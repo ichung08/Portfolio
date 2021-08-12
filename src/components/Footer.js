@@ -4,7 +4,7 @@ import { HiMail } from "react-icons/hi";
 const Footer = () => {
   return (
     <footer>
-      <p>CREATED BY ISAAC CHUNG &copy; 2021</p>
+      <p>BUILT BY ISAAC CHUNG &copy; 2021</p>
       <a href="https://twitter.com/isaackcchung" rel="noreferrer" target="_blank">
         <FaTwitter className="footer-icon" />
       </a>
