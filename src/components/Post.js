@@ -14,6 +14,8 @@ const Post = (props) => {
     setRotateState(setActive === "active" ? "accordion__icon" : "accordion__icon rotate");
   };
 
+  const techArr = props.tech.split(" ");
+
   return (
     <div className="accordion__section">
       <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
@@ -21,9 +23,19 @@ const Post = (props) => {
         <FaChevronRight className={`${setRotate}`} />
       </button>
       <div ref={content} style={{ maxHeight: `${setHeight}` }} className="accordion__content">
-        <div className="accordion__text" dangerouslySetInnerHTML={{ __html: props.date }}></div>
-        <div className="accordion__text" dangerouslySetInnerHTML={{ __html: props.desc }}></div>
-        <div className="accordion__text" dangerouslySetInnerHTML={{ __html: props.tech }}></div>
+        <div className="accordion__date">{props.date}</div>
+        <div className="accordion__text">{props.desc}</div>
+        <div>
+          {" "}
+          {techArr.map(function (tech, i) {
+            return (
+              <span className="accordion__tech" key={i}>
+                {tech}
+              </span>
+            );
+          })}
+        </div>
+        <br />
       </div>
     </div>
   );

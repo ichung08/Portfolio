@@ -9,7 +9,7 @@ const Experience = () => {
         title="Incoming Build Engineer Co-op @ Visier"
         date="Starting 09/2021 (8 months)"
         desc="Optimizing codebase compiling and testing through the build system. Improving processes around development efficiency and extending current CI/CD pipeline with Jenkins."
-        tech="Python, Java, Groovy, Scala, Jenkins, Docker, Gradle"
+        tech="Python Java Groovy Scala Jenkins Docker Gradle"
       />
       <br></br>
       <Post
@@ -23,6 +23,7 @@ const Experience = () => {
         title="nwHacks Logistics Coordinator @ nwPlus"
         date="06/2021 - Present"
         desc="Organized volunteer and organizer logistics, opening and closing ceremonies, food and snacks, and judging and registration. Crafted hacker experience with workshops, events and activities for 900+ hackers."
+        tech=""
       />
       <br></br>
       <Post

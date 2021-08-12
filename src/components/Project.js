@@ -21,9 +21,9 @@ const Project = (props) => {
         <FaChevronRight className={`${setRotate}`} />
       </button>
       <div ref={content} style={{ maxHeight: `${setHeight}` }} className="accordion__content">
-        <div className="accordion__text" dangerouslySetInnerHTML={{ __html: props.event }}></div>
-        <div className="accordion__text" dangerouslySetInnerHTML={{ __html: props.desc }}></div>
-        <div className="accordion__text" dangerouslySetInnerHTML={{ __html: props.tech }}></div>
+        <div className="accordion__text">{props.event}</div>
+        <div className="accordion__text">{props.desc}</div>
+        <div className="accordion__text">{props.tech}</div>
         {props.github && <FaGithub href={props.github} />}
         {props.website && <FaExternalLinkAlt href={props.website} />}
       </div>
