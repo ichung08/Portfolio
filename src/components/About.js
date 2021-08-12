@@ -1,16 +1,19 @@
 const About = () => {
   return (
-    <div className="about">
+    <div>
       <h1>Hey, I'm Isaac! 👋</h1>
+      <br></br>
       <p>
         I'm a student at the University of British Columbia studying Cognitive Systems + CS. This website is an overview
         of some of my experiences and thoughts.
       </p>
+      <br></br>
       <p>
-        I only started coding halfway through my first year, and I'm still navigating through the tech industry. My
-        future career aspirations are still unclear, but I hope to sample and gain a general understanding of the
-        industry before specializing in the future.
+        I started coding halfway through my first year, and I'm still navigating through the tech industry. My future
+        career is still unclear, but I hope to sample and gain a general understanding of the industry before
+        specializing in the future.
       </p>
+      <br></br>
       <p>
         Check out my{" "}
         <a href="/" rel="noreferrer">
@@ -26,6 +29,7 @@ const About = () => {
         </a>
         !😊
       </p>
+      <br></br>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Montserrat:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
 
 * {
   box-sizing: border-box;
@@ -47,17 +47,68 @@ h2 {
   word-wrap: normal;
 }
 
-.about {
-  padding-top: 10px;
+/* Style accordion section */
+.accordion__section {
+  display: flex;
+  flex-direction: column;
 }
 
-.about p {
-  padding-top: 10px;
+/* Style buttons used to open and close accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the button if it is clicked on  */
+.accordion:hover,
+.active {
+  background-color: #ccc;
+}
+
+/* Style the accordion content title */
+.accordion__title {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+/* Style accordion chevron icon */
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+  color: #113969;
+  font-size: 1.3em;
+}
+
+/* Style to rotate icon when state is active */
+.rotate {
+  transform: rotate(90deg);
+}
+
+/* Style the accordion content panel. Note: hidden by default */
+.accordion__content {
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+}
+
+/* Style the accordion content text */
+.accordion__text {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding: 18px;
 }
 
 .post {
-  margin: 5px;
-  padding: 10px 20px 10px 20px;
+  margin: 10px auto 10px auto;
 }
 
 footer {
@@ -68,7 +119,7 @@ footer {
 }
 
 footer p {
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .footer-icon {
