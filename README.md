@@ -1,5 +1,5 @@
-# Isaac Chung's Portfolio
+# Isaac Chung's Personal Website
 
-My personal website/portfolio, filled with my experiences, projects, and thoughts!
+My personal website, filled with my experiences, projects, and thoughts!
 
 This project was built using just JavaScript, HTML, and CSS. It's also my first project using React!
