@@ -198,6 +198,11 @@ footer p {
   font-size: 1.3em;
 }
 
+.footer-icon:hover {
+  transform: scale(1.2, 1.2);
+  color: #2d67ae;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 1em;
