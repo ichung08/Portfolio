@@ -21,15 +21,20 @@ const About = () => {
       <br></br>
       <p>
         Check out my{" "}
-        <a href="/" rel="noreferrer">
+        <a href="static\Isaac_Chung_Resume.pdf" className="about__link" rel="noreferrer">
           resume
         </a>
         , read some of my{" "}
-        <a href="#thoughts" rel="noreferrer">
+        <a href="#thoughts" className="about__link" rel="noreferrer">
           thoughts
         </a>
         , or follow me on{" "}
-        <a href="https://open.spotify.com/user/sophieknowington?si=1721bf00ead043a8" rel="noreferrer" target="_blank">
+        <a
+          href="https://open.spotify.com/user/sophieknowington?si=1721bf00ead043a8"
+          className="about__link"
+          rel="noreferrer"
+          target="_blank"
+        >
           Spotify
         </a>
         !

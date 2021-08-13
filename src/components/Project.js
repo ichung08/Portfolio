@@ -1,5 +1,6 @@
 import { FaChevronDown, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { useState, useRef } from "react";
+import "../styles/accordion.css";
 
 const Project = (props) => {
   const [setActive, setActiveState] = useState("");

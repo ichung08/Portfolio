@@ -1,5 +1,6 @@
 import { FaChevronDown } from "react-icons/fa";
 import { useState, useRef } from "react";
+import "../styles/accordion.css";
 
 const Post = (props) => {
   const [setActive, setActiveState] = useState("");
