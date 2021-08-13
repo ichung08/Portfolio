@@ -5,6 +5,9 @@ const Header = () => {
         ISAAC CHUNG
       </a>
       <div>
+        <a href="#about" rel="noreferrer">
+          About
+        </a>
         <a href="#experience" rel="noreferrer">
           Experience
         </a>
