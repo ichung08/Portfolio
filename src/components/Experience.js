@@ -15,7 +15,7 @@ const Experience = () => {
       <Post
         title="Work Learn IT Support/Web Assistant @ UBC"
         date="06/2021 - Present"
-        desc="Redesigned and restructed CPS and Biochemistry department webpages to improve overall appearance and SEO.Managed website content, design and updates for CPS and Biochemistry department."
+        desc="Redesigned and restructed CPS and Biochemistry department webpages to improve overall appearance and SEO.  Managed website content, design and updates for CPS and Biochemistry department."
         tech="Wordpress"
       />
       <br></br>

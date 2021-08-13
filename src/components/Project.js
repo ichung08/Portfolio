@@ -1,4 +1,4 @@
-import { FaChevronRight, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaChevronDown, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import { useState, useRef } from "react";
 
 const Project = (props) => {
@@ -18,7 +18,7 @@ const Project = (props) => {
     <div className="accordion__section">
       <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
         <h3 className="accordion__title">{props.title}</h3>
-        <FaChevronRight className={`${setRotate}`} />
+        <FaChevronDown className={`${setRotate}`} />
       </button>
       <div ref={content} style={{ maxHeight: `${setHeight}` }} className="accordion__content">
         <div className="accordion__text">{props.event}</div>
