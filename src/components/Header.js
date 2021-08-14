@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 const Header = () => {
   return (
     <header className="header">
@@ -5,18 +7,50 @@ const Header = () => {
         ISAAC CHUNG
       </a>
       <div>
-        <a href="#about" rel="noreferrer">
+        <Link
+          className="header__link"
+          to="about"
+          rel="noreferrer"
+          spy={true}
+          smooth={true}
+          offset={-120}
+          duration={500}
+        >
           About
-        </a>
-        <a href="#experience" rel="noreferrer">
+        </Link>
+        <Link
+          className="header__link"
+          to="experience"
+          rel="noreferrer"
+          spy={true}
+          smooth={true}
+          offset={-120}
+          duration={500}
+        >
           Experience
-        </a>
-        <a href="#projects" rel="noreferrer">
+        </Link>
+        <Link
+          className="header__link"
+          to="projects"
+          rel="noreferrer"
+          spy={true}
+          smooth={true}
+          offset={-120}
+          duration={500}
+        >
           Projects
-        </a>
-        <a href="#thoughts" rel="noreferrer">
+        </Link>
+        <Link
+          className="header__link"
+          to="thoughts"
+          rel="noreferrer"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           Thoughts
-        </a>
+        </Link>
       </div>
     </header>
   );

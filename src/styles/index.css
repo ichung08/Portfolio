@@ -34,18 +34,35 @@ h2 {
 }
 
 /* Position links */
-.header a {
+.header__link {
   float: left;
   color: black;
   text-align: center;
-  padding: 12px;
+  margin: 12px;
   text-decoration: none;
   font-size: 1em;
   line-height: 25px;
+  cursor: pointer;
+}
+
+/* Style header links */
+.header__link:hover {
+  margin-bottom: 2px;
+  border-bottom: 2px solid #f8ba45;
+  color: #113969;
+  transform: scale(1.05, 1.05);
 }
 
 /* Style header logo  */
-.header a.logo {
+.logo {
+  float: left;
+  color: black;
+  text-align: center;
+  margin: 12px;
+  text-decoration: none;
+  font-size: 1em;
+  line-height: 25px;
+  cursor: pointer;
   font-size: 1.5em;
   color: #113969;
 }

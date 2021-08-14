@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div id="about">
+    <div id="about" data-aos="fade-up">
       <h2>About Me</h2>
       <br></br>
       <p>
@@ -15,8 +15,8 @@ const About = () => {
       </p>
       <br></br>
       <p>
-        <b>When I'm not in front of a computer screen,</b> I'm reading, working out at the gym, or spending time with
-        family and friends.
+        <b>When I'm not in front of a computer screen,</b> you'll find me reading, playing basketball, working out at
+        the gym, or spending time with family and friends.
       </p>
       <br></br>
       <p>

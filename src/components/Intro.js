@@ -1,8 +1,7 @@
 import "../styles/intro.css";
-
 const Intro = () => {
   return (
-    <div className="title__container">
+    <div className="title__container" data-aos="fade" data-aos-offset="200" data-aos-duration="400">
       <h1 className="title">
         Hey, I'm <b>Isaac Chung</b>. <span className="wave">👋</span>
       </h1>
@@ -10,7 +9,7 @@ const Intro = () => {
       <h1 className="title">I'm an aspiring software engineer, passionate about combining tech and communities.</h1>
       <br />
       <a href="mailto:isaackcchung8@gmail.com" className="intro__link">
-        Contact Me
+        Let's Chat
       </a>
     </div>
   );

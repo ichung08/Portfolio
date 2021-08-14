@@ -2,7 +2,7 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <div id="projects" data-aos="fade-up">
       <h2>Projects</h2>
       <br></br>
       <Project

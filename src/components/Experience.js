@@ -2,7 +2,7 @@ import Post from "./Post";
 
 const Experience = () => {
   return (
-    <div id="experience">
+    <div id="experience" data-aos="fade-up">
       <h2>Experience</h2>
       <br></br>
       <Post
