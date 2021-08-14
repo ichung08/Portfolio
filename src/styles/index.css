@@ -21,6 +21,7 @@ body {
 h2 {
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 2em;
 }
 
 /* Style header used for navigation */
@@ -104,6 +105,7 @@ footer p {
   font-size: 1.3em;
 }
 
+/* Style footer icon hover */
 .footer-icon:hover {
   transform: scale(1.2, 1.2);
   color: #2d67ae;
@@ -125,6 +127,14 @@ footer p {
   border: 4.5px solid transparent;
   background-clip: content-box;
   background-color: #113969;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 2em;
+  border: 4.5px solid transparent;
+  background-clip: content-box;
+  background-color: #2d67ae;
 }
 
 /* Adjusts margin based on window size (max-width of 1500px) */

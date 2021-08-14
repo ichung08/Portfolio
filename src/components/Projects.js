@@ -15,14 +15,6 @@ const Projects = () => {
       />
       <br></br>
       <Project
-        title="Restaurant List"
-        github="https://github.com/ichung08/Restaurant-List-App"
-        event="Independent Project"
-        desc="Created an application to help users record and list restaurants utilizing OOP concepts. Developed desktop application in Java, with SwingUI GUI. Aquired 100% code coverage with JUnit."
-        tech="Java SwingUI JUnit JSON"
-      />
-      <br></br>
-      <Project
         title="Battle To-Do"
         github="https://github.com/ichung08/battle-todo"
         event="nwHacks 2021"
@@ -36,6 +28,23 @@ const Projects = () => {
         event="Research Project"
         desc="Evaluated the significance of meterological factors on COVID-19 infection rates in various regions of Canada using linear regression, decision tree regression, and a random forest regressor in Python. Presented project at Multidisciplinary Undergraduate Research Conference (MURC)."
         tech="Python scikit-learn Django MongoDB"
+      />
+      <br></br>
+      <Project
+        title="Restaurant List"
+        github="https://github.com/ichung08/Restaurant-List-App"
+        event="Independent Project"
+        desc="Created an application to help users record and list restaurants utilizing OOP concepts. Developed desktop application in Java, with SwingUI GUI. Aquired 100% code coverage with JUnit."
+        tech="Java SwingUI JUnit JSON"
+      />
+      <br></br>
+      <Project
+        title="Personal Website"
+        github="https://github.com/ichung08/personal-website"
+        website="https://isaacchung.com"
+        event="Independent Project"
+        desc="The website you're currently on. Built with React, HTML and CSS."
+        tech="JavaScript React HTML CSS"
       />
     </div>
   );

@@ -26,10 +26,9 @@ const Project = (props) => {
       <div ref={content} style={{ maxHeight: `${setHeight}` }} className="accordion__content">
         <div className="accordion__date">{props.event}</div>
         <div className="accordion__text">{props.desc}</div>
-        <br />
+
         {props.tech && (
           <div className="accordion__tech__container">
-            {" "}
             {techArr.map(function (tech, i) {
               return (
                 <span className="accordion__tech" key={i}>
@@ -39,8 +38,19 @@ const Project = (props) => {
             })}
           </div>
         )}
-        {props.github && <FaGithub href={props.github} />}
-        {props.website && <FaExternalLinkAlt href={props.website} />}
+        <br />
+        <div className="accordion__links__container">
+          {props.github && (
+            <a href={props.github} rel="noreferrer" target="_blank">
+              <FaGithub className="accordion__links" />
+            </a>
+          )}
+          {props.website && (
+            <a href={props.website} rel="noreferrer" target="_blank">
+              <FaExternalLinkAlt className="accordion__links" />
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
