@@ -1,6 +1,6 @@
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
-import Thoughts from "./Thoughts";
+// import Thoughts from "./Thoughts";
 
 const Header = () => {
   return (
@@ -43,7 +43,7 @@ const Header = () => {
           >
             Projects
           </LinkScroll>
-          <LinkScroll
+          {/* <LinkScroll
             className="header__link"
             to="thoughts"
             rel="noreferrer"
@@ -55,10 +55,10 @@ const Header = () => {
             <Link to={"/thoughts"} style={{ color: "inherit", textDecoration: "inherit" }}>
               Thoughts
             </Link>
-          </LinkScroll>
+          </LinkScroll> */}
         </div>
       </header>
-      <Route path="/thoughts" component={Thoughts} />
+      {/* <Route path="/thoughts" component={Thoughts} /> */}
     </Router>
   );
 };
