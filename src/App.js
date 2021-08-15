@@ -23,19 +23,21 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Route
-          path="/"
-          exact
-          render={(props) => (
-            <div className="container">
-              <Intro />
-              <About />
-              <Experience />
-              <br></br>
-              <Projects />
-            </div>
-          )}
-        />
+        <div>
+          <Route
+            path="/"
+            exact
+            render={(props) => (
+              <div className="container">
+                <Intro />
+                <About />
+                <Experience />
+                <br></br>
+                <Projects />
+              </div>
+            )}
+          />
+        </div>
         <Footer />
       </div>
     </Router>

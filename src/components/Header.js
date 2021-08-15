@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import Thoughts from "./Thoughts";
 
@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <Router>
       <header className="header">
-        <a href="/" className="logo">
+        <Link to="/" className="logo">
           ISAAC CHUNG
-        </a>
+        </Link>
         <div>
           <LinkScroll
             className="header__link"
@@ -52,13 +52,15 @@ const Header = () => {
             offset={-70}
             duration={500}
           >
-            <Link to={"/thoughts"} style={{ color: "inherit", textDecoration: "inherit" }}>
+            <Link to={"/thoughts"} style={{ color: "inherit", textDecoration: "none" }}>
               Thoughts
             </Link>
           </LinkScroll>
         </div>
       </header>
-      <Route path="/thoughts" component={Thoughts} />
+      <Switch>
+        <Route path="/thoughts" component={Thoughts} />
+      </Switch>
     </Router>
   );
 };
