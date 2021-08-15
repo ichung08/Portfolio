@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import Thoughts from "./Thoughts";
 
