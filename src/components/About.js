@@ -21,7 +21,7 @@ const About = () => {
       <br></br>
       <p>
         Check out my{" "}
-        <a href="static\Isaac_Chung_Resume.pdf" className="about__link" rel="noreferrer">
+        <a href="https://isaacchung.com/Isaac_Chung_Resume.pdf" className="about__link" rel="noreferrer">
           resume
         </a>
         , read some of my{" "}
