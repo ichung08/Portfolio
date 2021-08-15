@@ -1,6 +1,8 @@
+import "../styles/thoughts.css";
+
 const Thoughts = () => {
   return (
-    <div id="thoughts">
+    <div id="thoughts" className="container">
       <h1>Thoughts</h1>
     </div>
   );

@@ -1,10 +1,10 @@
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import Thoughts from "./components/Thoughts";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -20,17 +20,25 @@ AOS.init({
 
 function App() {
   return (
-    <div>
-      <Header />
-      <div className="container">
-        <Intro />
-        <About />
-        <Experience />
-        <br></br>
-        <Projects />
+    <Router>
+      <div>
+        <Header />
+        <Route
+          path="/"
+          exact
+          render={(props) => (
+            <div className="container">
+              <Intro />
+              <About />
+              <Experience />
+              <br></br>
+              <Projects />
+            </div>
+          )}
+        />
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </Router>
   );
 }
 
