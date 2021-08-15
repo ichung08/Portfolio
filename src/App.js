@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Thoughts from "./components/Thoughts";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
