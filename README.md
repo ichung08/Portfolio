@@ -1,8 +1,8 @@
 # isaacchung.com
 
-My personal website, filled with my experiences, projects, and thoughts!
+My personal website, filled with my experiences, projects, and thoughts.
 
-I've been needing to create a personal website and learn react/JS - so I figured that my first react project would be this!
+I've been needing to create a personal website and learn react/JS - so I figured that this would be a great first project to accomplish both tasks!
 
 This site is built entirely with JS/HTML/CSS.
 
