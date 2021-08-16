@@ -8,4 +8,4 @@ This site is built entirely with JS/HTML/CSS.
 
 ### Credits
 
-Huge thanks to @ianmah for all your help and to [Jacky Zhao's](jzhao.xyz) website for being great inspiration.
+Huge thanks to [@ianmah](https://github.com/ianmah) for all your help and to [Jacky Zhao's](jzhao.xyz) website for being great inspiration.
