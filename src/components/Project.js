@@ -26,7 +26,6 @@ const Project = (props) => {
       <div ref={content} style={{ maxHeight: `${setHeight}` }} className="accordion__content">
         <div className="accordion__date">{props.event}</div>
         <div className="accordion__text">{props.desc}</div>
-
         {props.tech && (
           <div className="accordion__tech__container">
             {techArr.map(function (tech, i) {
