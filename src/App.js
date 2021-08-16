@@ -21,25 +21,21 @@ AOS.init({
 function App() {
   return (
     <Router>
-      <div>
-        <Header />
-        <div>
-          <Route
-            path="/"
-            exact
-            render={(props) => (
-              <div className="container">
-                <Intro />
-                <About />
-                <Experience />
-                <br></br>
-                <Projects />
-              </div>
-            )}
-          />
-        </div>
-        <Footer />
-      </div>
+      <Header />
+      <Route
+        path="/"
+        exact
+        render={(props) => (
+          <div className="container">
+            <Intro />
+            <About />
+            <Experience />
+            <br></br>
+            <Projects />
+          </div>
+        )}
+      />
+      <Footer />
     </Router>
   );
 }
