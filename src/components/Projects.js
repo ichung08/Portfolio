@@ -10,7 +10,7 @@ const Projects = () => {
         github="https://github.com/ichung08/ubc-course-explorer"
         website="https://ubc-course-app.herokuapp.com/"
         event="Oakhacks 2020"
-        desc="Built a school course search web app with Python and Django, integrating a UBC Grades and RateMyProfessors API to display course, grades and professor information. Containerized and deployed using Docker and Heroku and established CI/CD pipeline with Github Actions. Designed and implemented frontend web pages using Django, HTML and CSS. Achieved first place amongst 40+ teams at Oakhacks 2020."
+        desc="Built a school course search web app with Python and Django, integrating a UBC Grades and RateMyProfessors API to display course, grades and professor information. Containerized and deployed using Docker and Heroku and implemented Python Linter with Github Actions. Designed and implemented frontend web pages using Django, HTML and CSS. Achieved first place amongst 40+ teams at Oakhacks 2020."
         tech="Python Django JavaScript Heroku Docker GithubActions HTML CSS"
       />
       <br></br>
@@ -43,8 +43,8 @@ const Projects = () => {
         github="https://github.com/ichung08/personal-website"
         website="https://isaacchung.com"
         event="Independent Project"
-        desc="The website you're currently on. Built with React, HTML and CSS."
-        tech="JavaScript React HTML CSS"
+        desc="The website you're currently on, designed and implemented using React, HTML, and CSS with a CI/CD pipeline using Github Actions."
+        tech="JavaScript React HTML CSS GithubActions"
       />
     </div>
   );
