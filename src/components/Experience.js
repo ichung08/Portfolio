@@ -18,7 +18,7 @@ const Experience = () => {
         website="https://cps.med.ubc.ca/"
         website2="https://biochem.ubc.ca/?login"
         date="06/2021 - Present"
-        desc="Redesigned and restructed CPS and Biochemistry department webpages to improve overall appearance and SEO.  Managed website content, design and updates for CPS and Biochemistry department."
+        desc="Redesigned and restructed CPS and Biochemistry department webpages to improve overall appearance and SEO.  Managed website content, design and updates for CPS and Biochemistry department. Documented and taught WordPress workflow and standard of procedure to colleagues."
         tech="WordPress HTML CSS"
       />
       <br></br>
