@@ -19,7 +19,7 @@ const Experience = () => {
         website2="https://biochem.ubc.ca/?login"
         date="06/2021 - Present"
         desc="Redesigned and restructed CPS and Biochemistry department webpages to improve overall appearance and SEO.  Managed website content, design and updates for CPS and Biochemistry department."
-        tech="Wordpress"
+        tech="WordPress HTML CSS"
       />
       <br></br>
       <Post
@@ -34,7 +34,7 @@ const Experience = () => {
         title="Undergraduate Computer Science Teaching Assistant @ The University of British Columbia"
         date="10/2020 - 04/2021"
         desc="Taught an introductory programming course in Python, led labs with 25+ students, graded 600+ lab assignments, and hosted weekly office hours. Curated and edited 10+ tutorial videos as new course development materials for remote learning."
-        tech="Python"
+        tech="Python Camtasia"
       />
     </div>
   );
