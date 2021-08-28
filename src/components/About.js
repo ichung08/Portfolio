@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div id="about" data-aos="fade-up">
       <h2>About Me</h2>
-      <br></br>
+      <br />
       <p>
         I'm a student at the <b>University of British Columbia studying Cognitive Systems + CS</b>. This website is an
         overview of some of my experiences and thoughts.

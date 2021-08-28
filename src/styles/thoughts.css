@@ -1,1 +1,30 @@
+/* Quote styling */
+.quote {
+  font-style: italic;
+  text-align: center;
+}
 
+.thought__section {
+}
+
+.thought__title {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  text-align: left;
+  color: #113969;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.thought__title:hover {
+  color: #2d67ae;
+}
+
+.thought__date {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.8em;
+  margin-right: 0.5rem;
+}
