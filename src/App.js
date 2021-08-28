@@ -6,6 +6,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Thoughts from "./components/Thoughts";
+// import Bubble from "./components/Bubble";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
