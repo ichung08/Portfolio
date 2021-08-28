@@ -1,4 +1,4 @@
-import { FaChevronDown } from "react-icons/fa";
+import { FaChevronDown, FaExternalLinkAlt } from "react-icons/fa";
 import { useState, useRef } from "react";
 import "../styles/accordion.css";
 
@@ -26,7 +26,6 @@ const Post = (props) => {
       <div ref={content} style={{ maxHeight: `${setHeight}` }} className="accordion__content">
         <div className="accordion__date">{props.date}</div>
         <div className="accordion__text">{props.desc}</div>
-        <br />
         {props.tech && (
           <div className="accordion__tech__container">
             {" "}
@@ -40,6 +39,18 @@ const Post = (props) => {
           </div>
         )}
         <br />
+        <div className="accordion__links__container">
+          {props.website && (
+            <a href={props.website} rel="noreferrer" target="_blank">
+              <FaExternalLinkAlt className="accordion__links" />
+            </a>
+          )}
+          {props.website2 && (
+            <a href={props.website2} rel="noreferrer" target="_blank">
+              <FaExternalLinkAlt className="accordion__links" />
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );
