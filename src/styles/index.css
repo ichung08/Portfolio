@@ -29,7 +29,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.5rem;
+  padding: 2rem 19.5rem 1rem 19.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -87,7 +87,7 @@ h2 {
 
 /* Style footer */
 footer {
-  margin: 200px auto 100px auto;
+  margin: 10rem auto 10rem auto;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   color: #113969;
@@ -95,7 +95,7 @@ footer {
 
 /* Style footer font size */
 footer p {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 /* Style footer icon */

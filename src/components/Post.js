@@ -15,7 +15,7 @@ const Post = (props) => {
     setRotateState(setActive === "active" ? "accordion__icon" : "accordion__icon rotate");
   };
 
-  const techArr = props.tech.split(" ");
+  const techArr = props.tech.split(",");
 
   return (
     <div className="accordion__section">
