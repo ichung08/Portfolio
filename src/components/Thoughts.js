@@ -1,5 +1,5 @@
 import "../styles/thoughts.css";
-import Thought from "./Thought";
+// import Thought from "./Thought";
 
 const Thoughts = () => {
   return (
@@ -10,7 +10,8 @@ const Thoughts = () => {
         “Life can only be understood backwards; but it must be lived forwards.” ― Søren Kierkegaard
       </p>
       <br />
-      <p>
+      <p>Currently under construction</p>
+      {/* <p>
         I've always been a reflective and self-conscious individual, but I never really made an effort to take those
         thoughts in my head and write them out.
         <br />
@@ -18,7 +19,7 @@ const Thoughts = () => {
       </p>
       <br />
       <br />
-      <Thought title="Failure Resume" link="#" date="28/08/2021" topic="Job Search" />
+      <Thought title="Failure Resume" link="#" date="28/08/2021" topic="Job Search" /> */}
     </div>
   );
 };
