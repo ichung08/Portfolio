@@ -6,9 +6,9 @@ const Experience = () => {
       <h2>Experience</h2>
       <br></br>
       <Post
-        title="Incoming Build Engineer Co-op @ Visier"
+        title="Build Engineer Co-op @ Visier"
         website="https://www.visier.com/"
-        date="Starting 09/2021 (8 months)"
+        date="09/2021 - Present"
         desc="Optimizing codebase compiling and testing through the build system. Improving processes around development efficiency and extending current CI/CD pipeline with Jenkins."
         tech="Python,Java,Groovy,Scala,Jenkins,Docker,Gradle"
       />
@@ -17,7 +17,7 @@ const Experience = () => {
         title="Work Learn IT Support/Web Assistant @ The University of British Columbia"
         website="https://cps.med.ubc.ca/"
         website2="https://biochem.ubc.ca/?login"
-        date="06/2021 - Present"
+        date="06/2021 - 08/2021"
         desc="Redesigned and restructed CPS and Biochemistry department webpages to improve overall appearance and SEO.  Managed website content, design and updates for CPS and Biochemistry department. Documented and taught WordPress workflow and standard of procedure to colleagues."
         tech="WordPress,HTML,CSS"
       />
