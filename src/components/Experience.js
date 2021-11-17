@@ -9,8 +9,8 @@ const Experience = () => {
         title="Build Engineer Co-op @ Visier"
         website="https://www.visier.com/"
         date="09/2021 - Present"
-        desc="Optimizing codebase compiling and testing through the build system. Improving processes around development efficiency and extending current CI/CD pipeline with Jenkins."
-        tech="Python,Java,Groovy,Scala,Jenkins,Docker,Gradle"
+        desc="Optimizing codebase compiling and testing through the build system with Java and Scala.Improving processes around development efficiency and extending the current CI pipeline with Jenkins and Groovy.Redesigned a Slack, Bitbucket and Jira notification plugin to more effectively assist developers, improving efficiency by 15%. Managed development build health in Jenkins, notifying developers regarding broken builds, reverting changes and assigning bugs to responsible developers."
+        tech="Java,Groovy,Scala,Jenkins,Docker,Bash,Linux,Bitbucket,Jira"
       />
       <br></br>
       <Post

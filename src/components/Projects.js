@@ -6,12 +6,11 @@ const Projects = () => {
       <h2>Projects</h2>
       <br></br>
       <Project
-        title="UBC Course Explorer"
-        github="https://github.com/ichung08/ubc-course-explorer"
-        website="https://ubc-course-app.herokuapp.com/"
-        event="Oakhacks 2020"
-        desc="Built a school course search web app with Python and Django, integrating a UBC Grades and RateMyProfessors API to display course, grades and professor information. Containerized and deployed using Docker and Heroku and implemented Python Linter with Github Actions. Designed and implemented frontend web pages using Django, HTML and CSS. Achieved first place amongst 40+ teams at Oakhacks 2020."
-        tech="Python,Django,JavaScript,Heroku,Docker,Github Actions,HTML,CSS"
+        title="Ambience"
+        github="https://github.com/ichung08/ambience"
+        event="Hack the North 2021"
+        desc="Developed a music player that recommends music based on facial emotion and expression using JavaScript, ReactJS, and face-api. Integrated a journaling feature using Firebase, allowing users to journal their emotions."
+        tech="JavaScript,ReactJS,HTML,CSS,Firebase"
       />
       <br></br>
       <Project
@@ -20,6 +19,15 @@ const Projects = () => {
         event="nwHacks 2021"
         desc="Developed a user authenticated to-do list game web app to encourage online productivity. Built login system, to-do list, and frontend web pages using Django, HTML and CSS. Achieved ‘Honourable Mention’ award amongst 200+ teams at nwHacks 2021."
         tech="Python,Django,HTML,CSS"
+      />
+      <br></br>
+      <Project
+        title="UBC Course Explorer"
+        github="https://github.com/ichung08/ubc-course-explorer"
+        website="https://ubc-course-app.herokuapp.com/"
+        event="Oakhacks 2020"
+        desc="Built a school course search web app with Python and Django, integrating a UBC Grades and RateMyProfessors API to display course, grades and professor information. Containerized and deployed using Docker and Heroku and implemented Python Linter with Github Actions. Designed and implemented frontend web pages using Django, HTML and CSS. Achieved first place amongst 40+ teams at Oakhacks 2020."
+        tech="Python,Django,JavaScript,Heroku,Docker,Github Actions,HTML,CSS"
       />
       <br></br>
       <Project
