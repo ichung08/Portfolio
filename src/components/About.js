@@ -25,7 +25,7 @@ const About = () => {
           resume
         </a>
         , read some of my{" "}
-        <a href="#thoughts" className="about__link" rel="noreferrer">
+        <a href="https://medium.com/@isaackcchung8" className="about__link" rel="noreferrer">
           thoughts
         </a>
         , or follow me on{" "}
