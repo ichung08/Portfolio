@@ -41,9 +41,16 @@ const Header = () => {
         >
           Projects
         </LinkScroll>
-        <Link to="/thoughts" className="header__link" style={{ color: "inherit", textDecoration: "none" }}>
+        {/* <Link
+          to="/https://medium.com/@isaackcchung8"
+          className="header__link"
+          style={{ color: "inherit", textDecoration: "none" }}
+        >
           Thoughts
-        </Link>
+        </Link> */}
+        <a href="https://medium.com/@isaackcchung8" className="header__link">
+          Thoughts
+        </a>
       </div>
     </header>
   );
