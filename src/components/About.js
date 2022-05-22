@@ -9,14 +9,11 @@ const About = () => {
       </p>
       <br></br>
       <p>
-        I started coding halfway through my first year, and I'm still navigating through the tech industry. My future
-        career is still unclear, but I hope to sample and gain a general understanding of the industry before
-        specializing in the future.
+        I started coding halfway through my first year in 2020, and I'm still navigating through the tech industry. I'm currently interested in all things Web3, blockchain, cognitive systems, philosophy, startups, and venture capital.
       </p>
       <br></br>
       <p>
-        <b>When I'm not in front of a computer screen,</b> you'll find me reading, playing basketball, working out at
-        the gym, or spending time with family and friends.
+        <b>When I'm not in front of a computer screen,</b> you'll find me playing sports (volleyball, basketball, weightlifting, bouldering or ultimate frisbee), eating delicious food, or spending time with family and friends.
       </p>
       <br></br>
       <p>
@@ -30,7 +27,7 @@ const About = () => {
         </a>
         , or follow me on{" "}
         <a
-          href="https://open.spotify.com/user/sophieknowington?si=1721bf00ead043a8"
+          href="https://open.spotify.com/user/sophieknowington?si=74178070f18640e2"
           className="about__link"
           rel="noreferrer"
           target="_blank"
