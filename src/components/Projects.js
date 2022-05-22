@@ -6,6 +6,24 @@ const Projects = () => {
       <h2>Projects</h2>
       <br></br>
       <Project
+        title="iris"
+        github="https://github.com/ichung08/iris"
+        website="irisapp.xyz"
+        event="ETHGlobal's LFGrow Hackathon"
+        desc="iris, the messenger of the gods, is a platform that welcomes the new age of social media. We combined features from Twitter, Twitch, Tik Tok, and Patreon into an app where you can livestream content, post content publicly, or privately, comment, reshare, and collect posts. We built iris using Lens Protocol, Lit Protocol and Livepeer with Javascript and React and deployed on Polgyon."
+        tech="Lens Protocol,Lit Protocol,Livepeer,JavaScript,ReactJS,HTML,CSS,Firebase"
+      />
+      <br></br>
+      <Project
+        title="Tempra"
+        github="https://github.com/ianmah/tempra"
+        website="https://tempraaa.web.app/"
+        event="ETHGlobal's ETHAmsterdam Hackathon"
+        desc="Tempra is your all-in-one instant messaging platform on-chain. Inspired by Snapchat, upload ephemeral photos and videos, or private message your frens. Tempra brings the uniqueness of burnable and exclusive content to the convenience of composable identities on Lens Protocol. We combined Lens Protocol with Lit Protocol and Livepeer, and deployed it all on Polygon Mumbai."
+        tech="Lens Protocol,Lit Protocol,Livepeer,JavaScript,ReactJS,HTML,CSS,Firebase"
+      />
+      <br></br>
+      <Project
         title="Ambience"
         github="https://github.com/ichung08/ambience"
         event="Hack the North 2021"
