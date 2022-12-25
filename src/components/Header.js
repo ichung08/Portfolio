@@ -48,7 +48,7 @@ const Header = () => {
         >
           Thoughts
         </Link> */}
-        <a href="https://medium.com/@isaackcchung8" className="header__link">
+        <a href="/thoughts" className="header__link">
           Thoughts
         </a>
       </div>

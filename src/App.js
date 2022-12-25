@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
-import Intro from "./components/Intro";
+import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
@@ -23,7 +23,6 @@ AOS.init({
 function App() {
   return (
     <Router>
-      <Header />
       <Switch>
         <Route path="/thoughts" component={Thoughts} />
         <Route
@@ -31,16 +30,11 @@ function App() {
           exact
           render={(props) => (
             <div className="container">
-              <Intro />
-              <About />
-              <Experience />
-              <br />
-              <Projects />
+              <Home />
             </div>
           )}
         />
       </Switch>
-      <Footer />
     </Router>
   );
 }
