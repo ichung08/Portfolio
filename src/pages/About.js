@@ -1,18 +1,6 @@
 import styled from "styled-components";
-
-const Container = styled.div`
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 50em;
-`
-
-const AboutContainer = styled.div`
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-`
+import { Container, ChildContainer } from "../components/Container";
+import { Link, LinkContainer } from "../components/Link";
 
 const Title = styled.h1`
   font-size: 2.5em;
@@ -30,30 +18,10 @@ const Body = styled.p`
   font-size: 1.4em;
 `
 
-const LinkContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-`
-
-const Link = styled.a`
-  float: left;
-  color: black;
-  text-align: center;
-  margin: 12px;
-  text-decoration: none;
-  font-size: 1.5em;
-  line-height: 25px;
-  cursor: pointer;
-`
-
-
 const About = () => {
   return (
     <Container>
-      <AboutContainer>
+      <ChildContainer>
         <Title>About Me</Title>
         <Body>
           I'm a student at the <b>University of British Columbia studying Cognitive Systems + CS</b>. This website is an
@@ -73,7 +41,7 @@ const About = () => {
           <Link href="/resume">Resume</Link>
           <Link href="/projects">Projects</Link>
         </LinkContainer>
-      </AboutContainer>
+      </ChildContainer>
     </Container>
   );
 };

@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./components/About";
-import Experience from "./components/Experience";
+import About from "./pages/About";
+import Resume from "./pages/Resume";
 import Projects from "./components/Projects";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -28,7 +28,7 @@ function App() {
           )}
         />
         <Route path="/about" component={About} />
-        <Route path="/resume" component={Experience} />
+        <Route path="/resume" component={Resume} />
         <Route path="/projects" component={Projects} />
       </Switch>
     </Router>
