@@ -41,49 +41,6 @@ const Title = styled.h1`
   vertical-align: middle;
 `
 
-const Body = styled.body`
-  font-size: 1.5em;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  text-align: left;
-  width: 80%;
-`
-
-const waveAnimation = keyframes`
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  } 
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(10deg);
-  }
-  60% {
-    transform: rotate(0deg);
-  } /* Reset for the last half to pause */
-  100% {
-    transform: rotate(0deg);
-  }
-`
-
-const Wave = styled.span`
-  animation-name: ${waveAnimation}; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s; /* Change to speed up or slow down */
-  animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
-`
-
 const Home = () => {
   return (
     // <IntroContainer data-aos="zoom-in" data-aos-offset="10" data-aos-duration="400">

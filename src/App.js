@@ -1,13 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import styled from "styled-components";
-import Header from "./components/Header";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import Thoughts from "./components/Thoughts";
-// import Bubble from "./components/Bubble";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -23,7 +18,6 @@ AOS.init({
 
 function App() {
   return (
-    <div>
     <Router>
       <Switch>
         <Route
@@ -38,7 +32,6 @@ function App() {
         <Route path="/projects" component={Projects} />
       </Switch>
     </Router>
-    </div>
   );
 }
 
