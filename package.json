@@ -27,10 +27,21 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "root": true,
+    "env": {
+        "node": true
+    },
     "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+        "react-app",
+        "react-app/jest",
+        "eslint:recommended"
+    ],
+    "parserOptions": {
+        "parser": "babel-eslint"
+    },
+    "rules": {
+        "no-unused-vars": "off" 
+    }
   },
   "browserslist": {
     "production": [
