@@ -1,12 +1,8 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./components/Header";
-import Intro from "./components/Intro";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Experience from "./components/Experience";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Resume from "./pages/Resume";
 import Projects from "./components/Projects";
-import Thoughts from "./components/Thoughts";
-// import Bubble from "./components/Bubble";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -23,24 +19,18 @@ AOS.init({
 function App() {
   return (
     <Router>
-      <Header />
       <Switch>
-        <Route path="/thoughts" component={Thoughts} />
         <Route
           path="/"
           exact
           render={(props) => (
-            <div className="container">
-              <Intro />
-              <About />
-              <Experience />
-              <br />
-              <Projects />
-            </div>
+            <Home />
           )}
         />
+        <Route path="/about" component={About} />
+        <Route path="/resume" component={Resume} />
+        <Route path="/projects" component={Projects} />
       </Switch>
-      <Footer />
     </Router>
   );
 }
