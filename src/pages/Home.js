@@ -2,6 +2,10 @@ import styled, { keyframes } from "styled-components";
 import { Container, ChildContainer } from "../components/Container";
 import { Link, LinkContainer } from "../components/Link";
 
+const HomeContainer = styled(Container)`
+  height: 50em;
+`
+
 const Title = styled.h1`
   font-size: 2.5em;
   font-family: "Lato", sans-serif;
@@ -13,7 +17,7 @@ const Title = styled.h1`
 const Home = () => {
   return (
     // <IntroContainer data-aos="zoom-in" data-aos-offset="10" data-aos-duration="400">
-    <Container>
+    <HomeContainer>
       <ChildContainer>
         <Title>
           Hey, I'm <b>Isaac Chung</b>
@@ -24,7 +28,7 @@ const Home = () => {
           <Link href="/projects">Projects</Link>
         </LinkContainer>
       </ChildContainer>
-    </Container>
+    </HomeContainer>
   );
 };
 

@@ -1,23 +1,59 @@
 import styled from "styled-components";
-import { FaChevronDown, FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
-const Experience = ({title, date, description, tech, website, website2}) => {
+const Wrapper = styled.div`
+padding: 18px;
+align-items: center;
+border: none;
+outline: none;
+`
+
+const JobTitle = styled.h2`
+    font-size: 1.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    vertical-align: middle;
+`
+
+const Date = styled.p`
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+`
+
+const Desc = styled.p`
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+`
+
+const Tech = styled.span`
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: #2d67ae;
+    margin-right: 5px;
+    border-radius: 2px;
+`
+
+const Experience = ({title, date, desc, tech, website, website2}) => {
 
     const techArr = tech.split(",");
 
     return (
-        <div>
-            <h2>{title}</h2>
-            <div>{date}</div>
-            <div>{description}</div>
+        <Wrapper>
+            <JobTitle>{title}</JobTitle>
+            <Date>{date}</Date>
+            <Desc>{desc}</Desc>
             {tech && (
                 <div>
                     {" "}
                     {techArr.map(function (tech, i) {
                     return (
-                        <span className="accordion__tech" key={i}>
+                        <Tech key={i}>
                         {tech}
-                        </span>
+                        </Tech>
                     );
                     })}
                 </div>
@@ -32,7 +68,7 @@ const Experience = ({title, date, description, tech, website, website2}) => {
                 <FaExternalLinkAlt className="accordion__links" />
                 </a>
             )}
-        </div>
+        </Wrapper>
     );
 }
 

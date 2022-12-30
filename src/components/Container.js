@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
-  height: 50em;
+  height: 100%;
 `
 
 export const ChildContainer = styled.div`
