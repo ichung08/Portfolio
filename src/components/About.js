@@ -4,21 +4,20 @@ const About = () => {
       <h2>About Me</h2>
       <br />
       <p>
-        I'm a student at the <b>University of British Columbia studying Cognitive Systems + CS</b>. This website is an
-        overview of some of my experiences and thoughts.
+        I'm a student at the <b>University of British Columbia studying Cognitive Systems + CS</b>. 
       </p>
       <br></br>
       <p>
-        I started coding halfway through my first year in 2020, and I'm still navigating through the tech industry. I'm currently interested in all things Web3, blockchain, cognitive systems, philosophy, startups, and venture capital.
+        I started coding halfway through my first year in 2020, and I'm still navigating through the tech industry. I'm currently interested in startups, web3, cognitive systems, philosophy, venture capital, and social.
       </p>
       <br></br>
       <p>
-        <b>When I'm not in front of a computer screen,</b> you'll find me playing sports (volleyball, basketball, weightlifting, bouldering or ultimate frisbee), eating delicious food, or spending time with family and friends.
+        <b>When I'm not in front of a computer screen,</b> you'll find me playing sports (volleyball, weightlifting, bouldering or ultimate frisbee), eating delicious food, or spending time with family and friends.
       </p>
       <br></br>
       <p>
         Check out my{" "}
-        <a href="https://isaacchung.com/Isaac_Chung_Resume.pdf" className="about__link" rel="noreferrer">
+        <a href="https://drive.google.com/file/d/1nPzSNUfU06CVmunuBJYiPCnKonpH4t0Z/view?usp=drive_link" className="about__link" rel="noreferrer">
           resume
         </a>
         , read some of my{" "}
